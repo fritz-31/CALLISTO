@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        .guest{
+            background-color:maroon;
+            color:yellow;
+            padding-top: 10px;
+            padding-bottom:10px;
+            font-size:2em;
+        }
+        .carousel-inner img {margin-left: 30px;
+        margin-right: 30px;
+    width: 100%;
+    height: 70%;
+  }
+  * {
+  box-sizing: border-box;
+}
+.backcolor{
+  background-color:goldenrod;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+   .boxyshade{
+    box-shadow: 10px 10px 5px grey;
+   }             
+   .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;}
+
+.navbar navbar-expand-sm bg-light{
+  background-color:darkblue;
+  color:white;
+}
+li a:hover {
+  background-color: #111;
+}
+    </style>
+  <title>CALLISTO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+        <body >
+            <h2 align="center" class="guest">|| : ✺ ATITHI DEVO BHAVA ✺ : ||</h2>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> 📧 Email</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">🕿 Phone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">♒ Organise an occasion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">🏨 About Us</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">👥 Contact Us</a>
+                  </li>
+            </ul>
+            <ul class="nav justify-content-left" style="background-color:darkgoldenrod;">
+              <li class="nav-item">
+                    <a class="navbar-brand" href="#" style="margin-left:20px">♨</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link" href="#" style="color:black">Home</a>
+                  </li>
+                  
+                  <li class="nav-item" style="margin-left:400px">
+                    <a class="nav-link" href="#" style="color:white">Amenities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:white">Restaurant</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white">
+                     Accomodation
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Deluxe Room</a>
+                      <a class="dropdown-item" href="#">Luxury Room</a>
+                      <a class="dropdown-item" href="#">Royal Suite</a>
+                      <a class="dropdown-item" href="#">Presidential Suite</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white">
+                     Banquets
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Callisto's Pole</a>
+                      <a class="dropdown-item" href="#">Shivam Darbar</a>
+                    </div>
+                  </li>
+                </ul>
+              
+              
+              
+              <!-- WELCOME TO CAROUSEL SECTION-->
+              <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="elementor-image" align:"center">
+                      
+                   
+                    <img src="G:\.vscode\WEB DEV\images\Burj1.png" alt="Los Angeles" width="500" height="200 " style="margin:auto">
+                    
+                    <div class="carousel-caption">
+                      <img style="margin-bottom:680px" width="693" height="158" src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" class="attachment-medium_large size-medium_large lazyloaded" alt="" data-lazy-srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" data-lazy-sizes="(max-width: 693px) 100vw, 693px" data-lazy-src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" sizes="(max-width: 693px) 100vw, 693px" srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" data-was-processed="true">
+                    <noscript>
+                      <img width="693" height="158" src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" class="attachment-medium_large size-medium_large" alt="" srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" sizes="(max-width: 693px) 100vw, 693px" />
+                      </noscript>
+                      </div>
+                      <div class="carousel-caption">
+                        <h3 style="margin-bottom: 640px; font-size:2em; text-shadow: 2px 2px 10px red; color:yellow"> ------ HOTEL CALLISTO CONTINENTAL ------</h3>
+                      </div>
+                        <div class="carousel-caption">
+                        <h1 style="font-family: Sofia, sans-serif; margin-bottom:580px">ONE OF THE BEST HOTELS IN INDIA</h1>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="G:\.vscode\WEB DEV\images\burj2.png" alt="Chicago" width="500" height="200">
+                    <div class="carousel-caption">
+                      <img style="margin-bottom:680px" width="693" height="158" src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" class="attachment-medium_large size-medium_large lazyloaded" alt="" data-lazy-srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" data-lazy-sizes="(max-width: 693px) 100vw, 693px" data-lazy-src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" sizes="(max-width: 693px) 100vw, 693px" srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" data-was-processed="true">
+                    <noscript>
+                      <img width="693" height="158" src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" class="attachment-medium_large size-medium_large" alt="" srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" sizes="(max-width: 693px) 100vw, 693px" />
+                      </noscript>
+                      </div>
+                      <div class="carousel-caption">
+                        <h3 style="margin-bottom: 640px; font-size:2em; text-shadow: 2px 2px 10px red; color:yellow"> ------ HOTEL CALLISTO CONTINENTAL ------</h3>
+                      </div>
+                        <div class="carousel-caption">
+                        <h1 style="font-family: Sofia, sans-serif;margin-bottom:580px">ONE OF THE BEST HOTELS IN INDIA</h1>
+                        </div>
+                      </div>
+                    
+                  <div class="carousel-item">
+                    <img src="G:\.vscode\WEB DEV\images\burj3.png" alt="New York" width="500" height="200">
+                    <div class="carousel-caption">
+                      <img style="margin-bottom:680px" width="693" height="158" src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" class="attachment-medium_large size-medium_large lazyloaded" alt="" data-lazy-srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" data-lazy-sizes="(max-width: 693px) 100vw, 693px" data-lazy-src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" sizes="(max-width: 693px) 100vw, 693px" srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" data-was-processed="true">
+                    <noscript>
+                      <img width="693" height="158" src="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png" class="attachment-medium_large size-medium_large" alt="" srcset="https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1.png 693w, https://hotelravishacontinental.com/wp-content/uploads/2019/10/crown-1-300x68.png 300w" sizes="(max-width: 693px) 100vw, 693px" />
+                      </noscript>
+                      </div>
+                      <div class="carousel-caption">
+                        
+                        <h3 style="margin-bottom: 640px; font-size:2em; text-shadow: 2px 2px 10px red; color:yellow"> ------ HOTEL CALLISTO CONTINENTAL ------</h3>
+                      </div>
+                        <div class="carousel-caption">
+                        <h1 style="font-family: Sofia, sans-serif;margin-bottom:580px">ONE OF THE BEST HOTELS IN INDIA</h1>
+                        </div>
+                      </div>
+                   
+                  
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+
+
+                <!-- IMAGE GALLERY -->
+                
+                <h3 align="center" style="color:maroon; margin-top: 20px"> --------- WHY US ---------</h3> 
+                <div class=backcolor>
+                <div class="row">
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\AIR CONDITION.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\BANQUET.png" alt="Forest" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\BED TEA.png" alt="Mountains" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\FINER LINENS.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\LAUNDRY.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\RS.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\Toilet.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <img src="G:\.vscode\WEB DEV\images\YO.png" alt="Snow" style="width:100%">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="row">
+                  <div class="column" style="margin-left: 350px">
+                    <img src="G:\.vscode\WEB DEV\images\hotel view.png" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <h3> WE ARE THE BEST CHOICE FOR YOU !! </h3>
+                    <h4> A royal stay at our hotel near Prayagraj High Court </h4>
+                      <p> Welcome to Prayagraj, one of the most ancient cities in India, also known as a famous pilgrimage center 
+                        at the confluence of the three holy rivers - Ganga, Yamuna, and Saraswati. 
+                        Whether you are visiting the pristine land of Prayagraj on business or to embrace the city's 
+                        historical glory, Hotel Kanha Shyam, offers you the most convenient space to unwind and relax. 
+                        We are having an arrangement of distinct but relatively comfortable & impressive accommodations 
+                        equipped to surpass every expectation, whatever your needs may be.
+                        Hotel Ravisha Continental is a new age delightful brand in hospitality, comfort, 
+                        and among the best-in-class luxury hotels in Allahabad.
+                        Set your stay at the front of our team to get a personalised experience, uniquely made and 
+                        curated for moments that will remain with you long after you depart.</p>
+                  </div>
+                </div>
+                
+                <!--ACCOMODATIONS-->
+                <center>
+                  <h4 style="margin-top:20px">COMFORT & LUXURY</h4>
+                  <h2> ACCOMODATIONS </h2>
+                  
+                  
+                      <div class="row" style="margin-left: 275px">
+                        <div class="column">
+                          <div class="boxyshade">
+                        <img src="G:\.vscode\WEB DEV\images\DELUXE ROOM.png" alt="Cinque Terre" style="width:100%">
+                      <div class="desc">
+                        <h4> DELUXE ROOM </h4>
+                        Ravisha's deluxe suite is tastefully furnished to apprehend the Spirit of Luxurious sustenance. A must stay place.</div>
+                    </div>
+                  </div>
+                    <div class="column">
+                      <div class="boxyshade">
+                      <img src="G:\.vscode\WEB DEV\images\LUXURY ROOM.png" alt="Cinque Terre" style="width:100%">
+                    <div class="desc">
+                      <h4> LUXURY ROOM</h4>
+                      The luxury suite has impressive views along with every credible luxury & comforts wanted for a luxury living.</div>
+                  </div>
+                </div>
+                  <div class="column">
+                    <div class="boxyshade">
+                    <img src="G:\.vscode\WEB DEV\images\ROYAL SUITE.png" alt="Cinque Terre" style="width:100%">
+                  <div class="desc">
+                    <h4> ROYAL SUITE </h4>
+                    The interiors of these suites are simple yet showcase all that is most delicate in Indian Craftsmanship & Contemporary Design</div>
+                </div>
+                </div>
+                  </div>
+                </center>
+                
+                <!--BANQUETS-->
+                <center>
+                  <h3 style="margin-top:30px"> ----- OUR BANQUETS -----</h3>
+                  <h2> DARBAR AND POLE </h2>
+                  <div class="row" style="margin-left: 300px">
+                  <div class="column">
+                    <h3> FEW WORDS ABOUT OUR BANQUET </h3>
+                    <p> Our Banquets are one of the City’s most sort after places for events where we cater to all function 
+                      needs, from small to large. We have a full-service venue that will engage in every aspect of planning 
+                      to the very end if needed. We are most proud of being able to meet all our guests’ needs on every 
+                      budget and never having to turn anyone down. We administer an array of services that include:</p>
+                  <h4> EVENTS </h4>
+                  <p>Weddings</p></hr>
+                  <p>Receptions</p></hr>
+                  <p>Graduation</p></hr>
+                  <p>Reunions</p></hr>
+                  <p>Farewell Party</p></hr>
+                  <p>Retirement</p></hr>
+                  <p>Birthday</p></hr>
+                  <p>Engagement</p></hr>
+                    </div>
+                    <div class="column">
+                      <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                      
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="G:\.vscode\WEB DEV\images\Event1.png" alt="Los Angeles">
+                            <div class="corousel-caption"> EXCLUSIVE STAGE SETUP</div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="G:\.vscode\WEB DEV\images\Event2.png" alt="Chicago">
+                            <div class="corousel-caption">LARGE AREA</div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="G:\.vscode\WEB DEV\images\Event3.png" alt="New York">
+                            <div class="corousel-caption">PROPER BUFFET AND SERVING</div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="G:\.vscode\WEB DEV\images\Event4.png" alt="New York">
+                            <div class="corousel-caption">WELL DESIGNED INTERIORS</div>
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      
+                      </div>
+
+                    </div>
+                  </div>
+                </center>
+
+                <!--restaurant-->
+                <div class="container-fluid">
+                <h4 align="center" style="margin-top:30px"> ------ OUR FOOD ------</h4>
+                <h1 align="center"> CALLISTO'S RESTAURANT</h1>
+                <p align="center"> It’s been a great honour that we host RC’s Restaurant, which is in the topmost position of the 
+                  est restaurants in Allahabad. It is a multicuisine restaurant that is well known for its great taste and wide 
+                  range of menus at decent pricing while setting apart from others in having it’s signature tandoori and breakfast.</p>
+
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    
+                  
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="G:\.vscode\WEB DEV\images\FOOD1.png" alt="Los Angeles">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="G:\.vscode\WEB DEV\images\FOOD2.png" alt="Chicago">
+                        
+                      </div>
+                     
+                      </div>
+                    </div>
+                    <div>
+                      <center>
+                      <button type="button" class="btn btn-primary">VIEW MENU</button>
+                    <button type="button" class="btn btn-success">BOOK TABLE</button>
+                    </div>
+                  </center>
+                  </div>
+
+                <!-- WELCOME TO INDICATION BARS -->
+                
+                <h1 align="center" style="margin-top:30px"> AMENITIES </h1>
+                <h3 align="center"> ----------- ❖ ----------</h3>
+                
+                  <div class="row" style="margin-left: 400px">
+                    <div class="column">
+                      <h2> We Are Always Upto Our Guest's Mark </h2>
+                      <p> We are one of the best hotels Allahabad in & we always put our guests as our priority, 
+                        whether it be anything. From the minute you book a stay together to when you bid farewell and 
+                        check out, a visit in Hotel Ravisha Continental provides unforgettable minutes, gently and with 
+                        the utmost discreet luxury. So, for what you are waiting?</p>
+                        </div>
+                        <div class="column">
+                <h2>Services</h2>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:97%">97%</div><hr>
+                <h2 >Cleanliness</h2>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%">95%</div><hr>
+                <h2 >Hospitality</h2>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:98%">98%</div><hr>
+                <h2 >Comfort</h2>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:96%">96%</div><hr>
+                <h2 >Interiors</h2>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">90%</div>
+                
+                </div>
+                </div>
+
+                <!--TESTIMONIALS-->
+                <h4 align="center" style="margin-top:30px">--- PEOPLE LOVE US -----</h4>
+                <h2 align="center">TESTIMONIALS</h2>
+                <div>
+                <div class="card">
+                
+                   <p>I just loved the ambiance and customer service. I am from Mangalore, where you have multiple places 
+                     for dining but for the first time, I really felt soothing in Allahabad.</p>
+                     <p align="center"> Pluto</p>
+                  </div>
+                </div>
+                <div class="card">
+                  
+                     <p>The service is flawless and the interiors are in great condition. The staff is very considerate and 
+                       genuinely seems to be happy to work at the hotel presenting an overall exceptional experience.</p>
+                       <p align="center"> Voyager</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                    
+                       <p>This is the best place to stay in Allahabad, comfortable rooms, nice ambience, & a wide menu 
+                         variety of chicken. Totally loving this hotel for what they are offering.</p>
+                         <p align="center">Perserverance</p>
+                        </div>
+                    </div>
+                    </div>
+
+                
+
+
+
+                <!-- ROOM BOOKING-->
+                <div style="background-color: yellow">
+                  <h3 align="center">Escape to the world of luxury & comfort at Callisto</h3>
+                  <p align="center">We cover our guests in every aspect of hospitality & services, that’s why more than Ten Celebrities have a stay at Hotel Callisto Continental & rated as one of the best hotels in Allahabad.</p>
+                 <div class="text-center">
+                  <button type="button" class="btn btn-danger" align="center">BOOK A ROOM NOW -></button> 
+                </div>
+                </div>
+                
+
+                <!-- footer-->
+                <div class="footer">
+                  <div class="row">
+                    <div class="column">
+                      <h4 style="margin-top:30px"> ABOUT US</h4>
+                      <p>Hotel Callisto Continental is a Luxury hotel having Best-in-class hospitality, located in the Heart 
+                        of the city and is ideal venue for marriage, stay, leisure or hangout. Hence, our hotel is strategically located at close 
+                        proximity from the railway station and the airport, to add to the convenience of our guests. We are also surrounded by 
+                        a number of cultural attractions which make it easier for our guests to visit in between their itineraries.</p>
+                        </div>
+                        <div class="column">
+                          <h4> PAYMENTS </h4>
+                          <img src="G:\.vscode\WEB DEV\images\Payment.png">
+                          <p> GOOGLE PAY US: 4206401260</p>
+                          <p> NEFT/RTGS Payments also available</p>
+                          <p> DONATE FOR A NOBLE CAUSE</p>
+                        </div>
+                        <div class="column">
+                          <h4> QUICK LINKS</h4>
+                          <p>DELUXE ROOMS</p>
+                          <p> LUXURY ROOMS</p>
+                          <p> ROYAL SUITE</p>
+                          <p> BOOK TABLE</p>
+                          <p> HOST EVENT</p>
+                        </div>
+                        <div class="column">
+                          <h4>CONTACT INFO</h4>
+                          <p>Address : 3TC-2 IRTMTC P.O. SUBEDRGANJ, PRAYAGRAJ</p>
+                          
+                          <p>Mobile: 4206401260</p>
+                          <p>Email: hotelcallistocontinental.ac.in</p>
+                          <p>Website: hotelcallisto.com</p>
+
+                        </div>
+                        <div class="row" style="margin-left: 600px">
+                          <div class="column" >
+                        <p > Copyright 2021 Hotel Callisto Continental</p>
+                          </div>
+                          <div class="column" >
+                        <p > Made with Love By Ritwik</p>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+                
+              </body>
+    </head>
+</html>
